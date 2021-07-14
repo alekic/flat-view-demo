@@ -3,11 +3,7 @@ import { FlatList } from 'react-native';
 import { FlatGrid } from 'react-native-super-grid';
 
 import FlatViewHeader from './FlatViewHeader';
-
-export const ViewMode = {
-  GRID: 'grid',
-  LIST: 'list'
-};
+import ViewMode from './ViewMode';
 
 export default function FlatView({
   renderGridItem,

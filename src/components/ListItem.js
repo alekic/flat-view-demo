@@ -36,8 +36,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'row',
     paddingHorizontal: 15,
-    paddingVertical: 10,
-    width: '100%'
+    paddingVertical: 10
   },
   icon: {
     color: 'lightblue',
@@ -50,7 +49,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: Platform.select({
       web: 14,
-      default: 18
+      default: 16
     })
   }
 });

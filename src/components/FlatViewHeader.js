@@ -2,8 +2,8 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
-import { ViewMode } from './FlatView';
 import Touchable from './Touchable';
+import ViewMode from './ViewMode';
 
 export default function FlatViewHeader({
   onToggleViewMode,
@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   container: {
     borderBottomColor: 'lightgray',
     borderBottomWidth: StyleSheet.hairlineWidth,
+    marginBottom: 10,
     padding: 10
   },
   toolbar: {

@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: Platform.select({
       web: 14,
-      default: 18
+      default: 16
     }),
     marginBottom: 5
   }
