@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import FlatView from '../components/FlatView';
 import GridItem from '../components/GridItem';
@@ -37,7 +37,7 @@ const renderListItem = ({ item }) => (
 
 export default function HomeScreen() {
   return (
-    <SafeAreaView>
+    <SafeAreaView edges={['bottom', 'left', 'right']}>
       <FlatView
         data={data}
         keyExtractor={keyExtractor}
